@@ -1,0 +1,1 @@
+{"version":3,"file":"verify-route-not-found.js","sourceRoot":"","sources":["../../src/middlewares/verify-route-not-found.ts"],"names":[],"mappings":";;;AAEO,MAAM,mBAAmB,GAAG,CACjC,GAAY,EACZ,GAAa,EACb,IAAkB,EAClB,EAAE;IACF,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,OAAO,EAAE,iBAAiB,EAAE,CAAC,CAAC;AACvD,CAAC,CAAC;AANW,QAAA,mBAAmB,uBAM9B"}

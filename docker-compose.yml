@@ -1,0 +1,28 @@
+version: '3.2'
+
+services:
+  api:
+    container_name: express-api
+    user: node
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./:/home/node/app
+      # - ./logs:/home/node/logs
+    ports:
+      - "3001:3001"
+    entrypoint: "sh ./.docker/entrypoint.sh"
+    depends_on:
+      - mongo
+
+  mongo:
+    container_name: mongo-db
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
