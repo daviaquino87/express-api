@@ -1,4 +1,4 @@
-import mongoose, { Document, Model, Schema } from "mongoose";
+import mongoose, { Document } from "mongoose";
 import { UserRepository } from "../user.repository";
 import { CreateUserDTO } from "../../../dtos/create-user.dto";
 import { userSchema, UserSchema } from "../../schemas/user.schema";
